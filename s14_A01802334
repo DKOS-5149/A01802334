@@ -1,0 +1,21 @@
+# First exercise
+print("Hello!")
+age = int(input("How old are you? "))
+if age >=18: 
+    print("You are an adult!")
+if age <18: 
+    print("You are Not an adult")
+
+# Second exercise
+age = int(input("How old are you? "))
+if age <20 and age >12:
+    print("You are a teenager!")
+if age >20:
+    print("You are Not a teenager")
+if age == 4:
+    print("You are the youngest person Ever!")
+
+# Third exercise
+birthyear = int(input("What year were you born in? "))
+year = 2025 - birthyear
+print("You are", year, "years old!")
